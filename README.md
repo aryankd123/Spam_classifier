@@ -58,11 +58,10 @@ text
 
 ## 5. Results
 
-- Test accuracy: ~0.98 on the held‑out test set.
+- Test accuracy: ~0.98385 on the held‑out test set.
 - Confusion matrix (ham vs spam) indicates low false positives on normal messages.
 
 > This project demonstrates an end‑to‑end NLP workflow: data cleaning, feature extraction, model training, evaluation, and deployment to a public web app.
-Numbers (accuracy etc.) ko apne actual notebook ke according tweak kar lena.
 
 2. Repo cleanup / structure
 Organize folders so recruiter ko ek glance mein samajh aa jaye:
@@ -78,7 +77,6 @@ Spam_classifier/
 ├─ vectorizer.joblib
 ├─ readme / README.md           # final README (one of them)
 └─ Spam_filter/                 # (optional) original notebook folder, if needed
-Agar readme file lowercase old hai, ya to delete kar de ya usko main README.md se replace kar.
 ​
 
 3. Screenshots / demo GIF (optional but strong flex)
