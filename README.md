@@ -1,10 +1,7 @@
 
 Check out the configuration reference at https://huggingface.co/docs/hub/spaces-config-reference
 
-1. README ka skeleton
-Spam_classifier/README.md ko is structure mein likh (ya update kar):
 
-text
 # SMS Spam Classifier
 
 A simple end‑to‑end SMS spam detector built with scikit‑learn and deployed on Hugging Face Spaces using Gradio.
@@ -46,7 +43,7 @@ Training code is in `Spam_filter/Spam_classifier.ipynb`:
 joblib.dump(spam_detect_model, "spam_model.joblib")
 joblib.dump(cv, "vectorizer.joblib")
 
-text
+
 
 ## 4. App architecture
 
